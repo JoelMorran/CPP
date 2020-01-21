@@ -1,0 +1,20 @@
+﻿  GLGeometry.cpp
+  GLShader.cpp
+  HPCEngine.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(1001): warning C4005: 'M_PI': macro redefinition (compiling source file source\GLShader.cpp)
+  c:\users\jamorran\desktop\assignment\hpcassignment\dependencies\include\SDL_stdinc.h(499): note: see previous definition of 'M_PI' (compiling source file source\GLShader.cpp)
+  HPCAssignment.cpp
+  ThreadPool.cpp
+  Generating code
+  1285 of 1285 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    1271 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  HPCAssignment.vcxproj -> C:\Users\jamorran\Desktop\assignment\HPCAssignment\bin\HPCAssignment.exe
+  HPCAssignment.vcxproj -> bin\HPCAssignment.pdb (Full PDB)
+  A subdirectory or file bin already exists.
+  dependencies\bin\x86\freetype.dll
+  dependencies\bin\x86\glew32.dll
+  dependencies\bin\x86\SDL2.dll
+          3 file(s) copied.

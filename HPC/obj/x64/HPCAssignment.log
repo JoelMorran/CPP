@@ -1,0 +1,182 @@
+﻿  GLGeometry.cpp
+  GLShader.cpp
+  HPCEngine.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(1001): warning C4005: 'M_PI': macro redefinition (compiling source file source\GLShader.cpp)
+  c:\users\jamorran\desktop\assignment\hpcassignment\dependencies\include\SDL_stdinc.h(499): note: see previous definition of 'M_PI' (compiling source file source\GLShader.cpp)
+  HPCAssignment.cpp
+  ThreadPool.cpp
+source\HPCAssignment.cpp(137): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+source\HPCAssignment.cpp(138): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+source\HPCAssignment.cpp(152): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1341): warning C4244: 'argument': conversion from 'unsigned __int64' to 'uint32_t', possible loss of data (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1444): note: see reference to function template instantiation 'void std::_Invoker_pmf_pointer::_Call<_Cv_FD,_Cv_TiD&,int&,unsigned __int64&,float&,Vector3*&>(_Decayed,_Ty1,int &,unsigned __int64 &,float &,Vector3 *&)' being compiled
+          with
+          [
+              _Cv_FD=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Cv_TiD=HPCAssignment *,
+              _Decayed=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Ty1=HPCAssignment *&
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1475): note: see reference to function template instantiation 'void std::invoke<_Cv_FD&,_Cv_TiD&,int&,unsigned __int64&,float&,Vector3*&>(_Callable,_Cv_TiD &,int &,unsigned __int64 &,float &,Vector3 *&)' being compiled
+          with
+          [
+              _Cv_FD=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Cv_TiD=HPCAssignment *,
+              _Callable=void (__cdecl HPCAssignment::* &)(uint32_t,uint32_t,float,const Vector3 *)
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(826): note: see reference to function template instantiation 'void std::_Invoke_ret<_Cv_FD&,_Cv_TiD&,int&,unsigned __int64&,float&,Vector3*&>(std::_Forced<std::_Unforced,false>,_Cv_FD &,_Cv_TiD &,int &,unsigned __int64 &,float &,Vector3 *&)' being compiled
+          with
+          [
+              _Cv_FD=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Cv_TiD=HPCAssignment *
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(881): note: see reference to function template instantiation 'void std::_Call_binder<std::_Unforced,0,1,2,3,4,_Ty1,_Ty2,std::tuple<>>(std::_Forced<std::_Unforced,false>,std::integer_sequence<std::_Ty,0,1,2,3,4>,_Cv_FD &,_Cv_tuple_TiD &,_Untuple &&)' being compiled
+          with
+          [
+              _Ty1=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Ty2=std::tuple<HPCAssignment *,int,unsigned __int64,float,Vector3 *>,
+              _Ty=std::size_t,
+              _Cv_FD=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Cv_tuple_TiD=std::tuple<HPCAssignment *,int,unsigned __int64,float,Vector3 *>,
+              _Untuple=std::tuple<>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1376): note: see reference to function template instantiation 'void std::_Binder<std::_Unforced,_Ty,HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>::operator ()<>(void)' being compiled
+          with
+          [
+              _Ty=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *)
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1375): note: see reference to function template instantiation 'void std::_Binder<std::_Unforced,_Ty,HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>::operator ()<>(void)' being compiled
+          with
+          [
+              _Ty=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *)
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1444): note: see reference to function template instantiation 'void std::_Invoker_functor::_Call<_Fx&,>(_Callable)' being compiled
+          with
+          [
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Callable=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *> &
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits(1461): note: see reference to function template instantiation 'void std::invoke<_Fx&,>(_Callable)' being compiled
+          with
+          [
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Callable=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *> &
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(213): note: see reference to function template instantiation 'void std::_Invoke_ret<_Rx,_Callable&>(std::_Forced<_Rx,true>,_Callable &)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=_Decayed
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(211): note: while compiling class template member function 'void std::_Func_impl<_Decayed,_Alloc,_Ret>::_Do_call(void)'
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ret=void
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(137): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret>' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ret=void
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(348): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(327): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Alloc=std::allocator<int>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(327): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Alloc=std::allocator<int>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(498): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<std::_Binder<std::_Unforced,_Ty,HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\functional(498): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<std::_Binder<std::_Unforced,_Ty,HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Ty=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\future(721): note: see reference to function template instantiation 'std::function<void (void)>::function<_Ty,void,void>(_Fx)' being compiled
+          with
+          [
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\future(720): note: see reference to function template instantiation 'std::function<void (void)>::function<_Ty,void,void>(_Fx)' being compiled
+          with
+          [
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\future(1770): note: see reference to function template instantiation 'std::_Packaged_state<_Ret (void)>::_Packaged_state<_Ty>(_Fty2 &&)' being compiled
+          with
+          [
+              _Ret=ReturnType,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fty2=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\future(1769): note: see reference to function template instantiation 'std::_Packaged_state<_Ret (void)>::_Packaged_state<_Ty>(_Fty2 &&)' being compiled
+          with
+          [
+              _Ret=ReturnType,
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fty2=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\memory(901): note: see reference to function template instantiation 'std::packaged_task<ReturnType (void)>::packaged_task<_Ty,void>(_Fty2 &&)' being compiled
+          with
+          [
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fty2=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\memory(901): note: see reference to function template instantiation 'std::packaged_task<ReturnType (void)>::packaged_task<_Ty,void>(_Fty2 &&)' being compiled
+          with
+          [
+              _Ty=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>,
+              _Fty2=std::_Binder<std::_Unforced,void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment *const ,std::ios_base::iostate,unsigned __int64,const float &,Vector3 *>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\memory(971): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::_Binder<std::_Unforced,void(__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>>(std::_Binder<std::_Unforced,void(__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*> &&)' being compiled
+          with
+          [
+              _Ty=std::packaged_task<ReturnType (void)>
+          ] (compiling source file source\HPCAssignment.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\memory(971): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::_Binder<std::_Unforced,void(__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>>(std::_Binder<std::_Unforced,void(__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*> &&)' being compiled
+          with
+          [
+              _Ty=std::packaged_task<ReturnType (void)>
+          ] (compiling source file source\HPCAssignment.cpp)
+  c:\users\jamorran\desktop\assignment\hpcassignment\include\ThreadPool.h(76): note: see reference to function template instantiation 'std::shared_ptr<std::packaged_task<ReturnType (void)>> std::make_shared<std::packaged_task<ReturnType (void)>,std::_Binder<std::_Unforced,_Ty,HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*>>(std::_Binder<std::_Unforced,_Ty,HPCAssignment*const ,int,unsigned __int64,const float &,Vector3*> &&)' being compiled
+          with
+          [
+              _Ty=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *)
+          ] (compiling source file source\HPCAssignment.cpp)
+  source\HPCAssignment.cpp(143): note: see reference to function template instantiation 'std::future<void> ThreadPool::enqueue<void(__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *),HPCAssignment*const ,int,unsigned __int64,const float&,Vector3*>(F &&,HPCAssignment *const &&,int &&,unsigned __int64 &&,const float &,Vector3 *&&)' being compiled
+          with
+          [
+              F=void (__cdecl HPCAssignment::* )(uint32_t,uint32_t,float,const Vector3 *)
+          ]
+  Generating code
+  All 1282 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  HPCAssignment.vcxproj -> C:\Users\jamorran\Desktop\assignment\HPCAssignment\bin\HPCAssignment.exe
+  HPCAssignment.vcxproj -> bin\HPCAssignment.pdb (Full PDB)
+  A subdirectory or file bin already exists.
+  dependencies\bin\x64\freetype.dll
+  dependencies\bin\x64\glew32.dll
+  dependencies\bin\x64\SDL2.dll
+          3 file(s) copied.
